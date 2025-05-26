@@ -1,0 +1,130 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#section1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(11, 11, 11);
+}
+
+header{
+    background-color: #0a0103;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgb(147, 147, 113);
+    border-radius: 0 0 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    font-family: 'Tangerine', serif;
+}
+
+header nav select{
+    background-color: rgb(27, 12, 12);
+    padding: 5px;
+    border-radius: 6px;
+    color: #DFD0B8;
+    border: 2px solid #601624;
+}
+
+#main{
+    padding: 65px;
+}
+
+#house-filter {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 2px solid rgb(45, 13, 13);
+  outline: none;
+  cursor: pointer;
+}
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.character-card {
+  background-color: #2c1313;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 220px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 10px rgb(147, 147, 113);
+}
+
+.character-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 3px 10px rgb(104, 104, 72);
+}
+
+.character-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  background-color: #eee;
+}
+
+.character-card h3 {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;
+  color: rgb(200, 200, 165);
+}
+
+.character-card p {
+  font-size: 0.9rem;
+  color: #c2a7a7;
+  margin-bottom: 0.3rem;
+}
+
+.no-results {
+  font-size: 1.2rem;
+  color: #b22222;
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .character-card {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+#footer{
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    font-family: 'Tangerine', serif;
+    box-shadow: 0 -5px 10px rgb(147, 147, 113);
+}
