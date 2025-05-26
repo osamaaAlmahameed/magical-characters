@@ -1,3 +1,3 @@
 # magical-characters
 
-![Logo](https://github.com/osamaaAlmahameed/magical-characters/raw/main/img1.png)
+![Alt text](https://raw.githubusercontent.com/osamaaAlmahameed/magical-characters/magic/img1.png)
