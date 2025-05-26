@@ -28,11 +28,10 @@ window.addEventListener("DOMContentLoaded", () => {
       const limitedCharacters = filteredCharacters.slice(0, 16);
       renderCharacterCards(limitedCharacters);
 
-      // إزالة الكروت الفارغة أو اللي صورة not-found.png فيها
       removeEmptyOrDefaultImageCards();
 
     } catch (error) {
-      console.error("فشل في جلب البيانات:", error);
+      console.error("There is Problem in Data:", error);
       cardContainer.innerHTML = "<p class='no-results'>There is problem with uploade data </p>";
     }
   }
