@@ -1,6 +1,9 @@
 # magical-characters
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://magical-characters.vercel.app)
+
+Check out the deployed app here:  
+[Live Demo](https://magical-characters.vercel.app)
+
 
 ## InterFace
 ![Alt text](https://raw.githubusercontent.com/osamaaAlmahameed/magical-characters/magic/img1.png)
