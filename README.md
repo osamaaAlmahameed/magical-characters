@@ -1,8 +1,8 @@
 # magical-characters
 
-
-Check out the deployed app here:  
-[Live Demo](https://magical-characters.vercel.app)
+## 🚀 Live Demo
+Check out the deployed app here:
+[Click here to view the live app](https://magical-characters.vercel.app)
 
 
 ## InterFace
